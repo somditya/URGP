@@ -1,0 +1,64 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime
+*.pid
+*.seed
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Frontend specific
+/frontend/.vite/
+/frontend/dist/
+
+# Backend specific
+/backend/dist/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Uploads (local)
+/uploads/
+
+# Docker
+.docker/
+
+# CLAUDE
+.claude/sessions/
